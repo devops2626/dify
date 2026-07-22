@@ -1,6 +1,6 @@
 version: 2
 
-updates:
+  updates:
   - package-ecosystem: "uv"
     directory: "/api"
     open-pull-requests-limit: 10
