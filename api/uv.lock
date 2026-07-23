@@ -218,7 +218,7 @@ sdist = { url = "https://files.pythonhosted.org/packages/9a/7d/b22cb9a0d4f396ee0
 
 [[package]]
 name = "alibabacloud-tea-openapi"
-version = "0.4.4"
+version = "0.4.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "alibabacloud-credentials" },
@@ -227,9 +227,9 @@ dependencies = [
     { name = "cryptography" },
     { name = "darabonba-core" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/30/93/138bcdc8fc596add73e37cf2073798f285284d1240bda9ee02f9384fc6be/alibabacloud_tea_openapi-0.4.4.tar.gz", hash = "sha256:1b0917bc03cd49417da64945e92731716d53e2eb8707b235f54e45b7473221ce", size = 21960, upload-time = "2026-03-26T10:16:16.792Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/3b/73/fb0c4d44759791ecdf269fc715c1e810fa1aba3981bfaaf8a01f61899296/alibabacloud_tea_openapi-0.4.5.tar.gz", hash = "sha256:75fa1f4360a46e41f5bf5f8d4917e52efb6f64885839bc1328c35590670c97b9", size = 26616, upload-time = "2026-07-14T13:15:39.364Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f5/5a/6bfc4506438c1809c486f66217ad11eab78157192b3d5707b4e2f4212f6c/alibabacloud_tea_openapi-0.4.4-py3-none-any.whl", hash = "sha256:cea6bc1fe35b0319a8752cb99eb0ecb0dab7ca1a71b99c12970ba0867410995f", size = 26236, upload-time = "2026-03-26T10:16:15.861Z" },
+    { url = "https://files.pythonhosted.org/packages/8d/ec/6b368a10e9c2e8b1b394c69b96ac213ae66e8c4895e0baa1ffaf7178fd32/alibabacloud_tea_openapi-0.4.5-py3-none-any.whl", hash = "sha256:338979095c7beda80a5b413c31262892cafdc12069dde4ce4fc2e4f7ce0fc609", size = 33333, upload-time = "2026-07-14T13:15:38.365Z" },
 ]
 
 [[package]]
@@ -1176,15 +1176,17 @@ wheels = [
 
 [[package]]
 name = "darabonba-core"
-version = "1.0.5"
+version = "1.0.8"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
     { name = "alibabacloud-tea" },
     { name = "requests" },
+    { name = "websocket-client" },
 ]
+sdist = { url = "https://files.pythonhosted.org/packages/f5/83/9321ccdb7a800c2cb97d8fa34bead5f20141f27f804594fd1fd815c4cd07/darabonba_core-1.0.8.tar.gz", hash = "sha256:f1661960b368e342d3d36434be82d264b70a01c49e843921d8a4dacd217376ae", size = 27604, upload-time = "2026-07-13T02:07:34.093Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/66/d3/a7daaee544c904548e665829b51a9fa2572acb82c73ad787a8ff90273002/darabonba_core-1.0.5-py3-none-any.whl", hash = "sha256:671ab8dbc4edc2a8f88013da71646839bb8914f1259efc069353243ef52ea27c", size = 24580, upload-time = "2025-12-12T07:53:59.494Z" },
+    { url = "https://files.pythonhosted.org/packages/6d/88/38800ca22f39a31fdb75c7b2867c61d3af5e2792cee0b72942a639c88a79/darabonba_core-1.0.8-py3-none-any.whl", hash = "sha256:ac093fdd40f88f2f9dfbbbfd7bc143495a3cb031f35b397c98d24edfa6b69483", size = 30957, upload-time = "2026-07-13T02:07:33.138Z" },
 ]
 
 [[package]]
@@ -1929,7 +1931,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "alibabacloud-gpdb20160503", specifier = "~=5.9.0" },
-    { name = "alibabacloud-tea-openapi", specifier = "==0.4.4" },
+    { name = "alibabacloud-tea-openapi", specifier = "==0.4.5" },
     { name = "clickhouse-connect", specifier = "==0.15.1" },
 ]
 
@@ -2081,7 +2083,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "mysql-connector-python", specifier = ">=9.7.0,<10.0.0" },
-    { name = "pyobvector", specifier = "==0.2.25" },
+    { name = "pyobvector", specifier = "==0.2.28" },
 ]
 
 [[package]]
@@ -2213,7 +2215,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "pyobvector", specifier = "==0.2.25" }]
+requires-dist = [{ name = "pyobvector", specifier = "==0.2.28" }]
 
 [[package]]
 name = "dify-vdb-vikingdb"
@@ -5303,7 +5305,7 @@ wheels = [
 
 [[package]]
 name = "pyobvector"
-version = "0.2.25"
+version = "0.2.28"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiomysql" },
@@ -5313,9 +5315,9 @@ dependencies = [
     { name = "sqlalchemy" },
     { name = "sqlglot" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/38/8a/c459f45844f1f90e9edf80c0f434ec3b1a65132efb240cfab8f26b1836c3/pyobvector-0.2.25.tar.gz", hash = "sha256:94d987583255ed8aba701d37a5d7c2727ec5fd7e0288cd9dd87a1f5ee36dd923", size = 78511, upload-time = "2026-03-10T07:18:32.283Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e5/e7/397eaeab4d52126675a30bcbfe1b74b6f3d3512a9e714966a93f08f3da2e/pyobvector-0.2.28.tar.gz", hash = "sha256:d394d66f4a7dc97c221b7584e52b329e3fe61ed96b6f248d7360e3e5a53581ce", size = 81686, upload-time = "2026-06-05T06:42:41.593Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d1/7d/037401cecb34728d1c28ea05e196ea3c9d50a1ce0f2172e586e075ff55d8/pyobvector-0.2.25-py3-none-any.whl", hash = "sha256:ae0153f99bd0222783ed7e3951efc31a0d2b462d926b6f86ebd2033409aede8f", size = 64663, upload-time = "2026-03-10T07:18:29.789Z" },
+    { url = "https://files.pythonhosted.org/packages/dd/a6/8acb9821c78bafc3ff9db5bbea05a8b67ff871b7590b7d25cc91c34fc2f0/pyobvector-0.2.28-py3-none-any.whl", hash = "sha256:36708fc0020307890b9001035904ff14719b81e20e58f2a97f7f3739dad53c72", size = 66637, upload-time = "2026-06-05T06:42:38.5Z" },
 ]
 
 [[package]]
