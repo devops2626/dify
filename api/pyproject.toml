@@ -1,12 +1,12 @@
 [project]
 name = "dify-api"
-version = "1.16.1"
+version = "1.16.0"
 requires-python = "~=3.12.0"
 
 dependencies = [
     # Legacy: mature and widely deployed
     "bleach>=6.4.0,<7.0.0",
-    "boto3>=1.43.56,<2.0.0",
+    "boto3>=1.43.54,<2.0.0",
     "celery>=5.6.3,<6.0.0",
     "croniter>=6.2.2,<7.0.0",
     "dify-agent",
@@ -31,7 +31,7 @@ dependencies = [
     "flask-migrate>=4.1.0,<5.0.0",
     "flask-orjson>=2.0.0,<3.0.0",
     "flask-restx>=1.3.2,<2.0.0",
-    "google-cloud-aiplatform>=1.160.0,<2.0.0",
+    "google-cloud-aiplatform>=1.162.0,<2.0.0",
     "httpx[socks]==0.28.1",
     "opentelemetry-distro==0.62b1",
     "opentelemetry-instrumentation-celery==0.62b1",
@@ -39,7 +39,7 @@ dependencies = [
     "opentelemetry-instrumentation-httpx==0.62b1",
     "opentelemetry-instrumentation-redis==0.62b1",
     "opentelemetry-instrumentation-sqlalchemy==0.62b1",
-    "opentelemetry-propagator-b3>=1.41.1,<2.0.0",
+    "opentelemetry-propagator-b3>=1.44.0,<2.0.0",
     "readabilipy==0.3.0",
     "resend>=2.27.0,<3.0.0",
     "zstandard==0.25.0",
@@ -193,11 +193,11 @@ dev = [
 ############################################################
 storage = [
     "azure-storage-blob>=12.30.0,<13.0.0",
-    "bce-python-sdk==0.9.76",
+    "bce-python-sdk==0.9.72",
     "cos-python-sdk-v5>=1.9.44,<2.0.0",
     "esdk-obs-python>=3.26.6,<4.0.0",
     "google-cloud-storage>=3.13.0,<4.0.0",
-    "opendal==0.46.0",
+    "opendal==0.47.3",
     "oss2>=2.19.1,<3.0.0",
     "supabase>=2.31.0,<3.0.0",
     "tos>=2.9.2,<3.0.0",
