@@ -1262,7 +1262,7 @@ wheels = [
 
 [[package]]
 name = "dify-agent"
-version = "1.16.0"
+version = "1.16.1"
 source = { editable = "../dify-agent" }
 dependencies = [
     { name = "httpx" },
@@ -1274,6 +1274,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "e2b", marker = "extra == 'server'", specifier = ">=2.34.0,<3.0.0" },
     { name = "fastapi", marker = "extra == 'server'", specifier = "==0.136.0" },
     { name = "graphon", marker = "extra == 'server'", specifier = "==0.5.2" },
     { name = "grpclib", extras = ["protobuf"], marker = "extra == 'grpc'", specifier = ">=0.4.9,<0.5.0" },
@@ -1853,7 +1854,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "langsmith", specifier = "==0.10.9" }]
+requires-dist = [{ name = "langsmith", specifier = "==0.10.12" }]
 
 [[package]]
 name = "dify-trace-mlflow"
@@ -1875,7 +1876,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "opik", specifier = "~=2.2.3" }]
+requires-dist = [{ name = "opik", specifier = "~=2.2.11" }]
 
 [[package]]
 name = "dify-trace-tencent"
@@ -1905,7 +1906,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "weave", specifier = "==0.53.2" }]
+requires-dist = [{ name = "weave", specifier = "==0.53.3" }]
 
 [[package]]
 name = "dify-vdb-alibabacloud-mysql"
@@ -3683,7 +3684,7 @@ wheels = [
 
 [[package]]
 name = "langsmith"
-version = "0.10.9"
+version = "0.10.12"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -3701,9 +3702,9 @@ dependencies = [
     { name = "xxhash" },
     { name = "zstandard" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ed/6d/9ad4427662ef131878f0f928d5a9e9913e0dda4b6511bb03e8722f1dee8a/langsmith-0.10.9.tar.gz", hash = "sha256:195bc67c964a6370cb91742ce9fa07ce69bfae47977f0fb3f41d125b3435d03a", size = 4736750, upload-time = "2026-07-20T21:27:13.738Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a3/c3/7203f18c6ca0ff4c65087fe8694511fadc8a0037c37010e43d25b9ecacd8/langsmith-0.10.12.tar.gz", hash = "sha256:e27cace529a5c54546ecdc2d3fa7af6d8a84a5b9333e99b497f47cafffa16ef5", size = 4749918, upload-time = "2026-07-29T14:22:52.335Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ed/54/509a1eb6b9e5572a4f3f4b087779d240c6b69f3d5247ffa21314f66155d9/langsmith-0.10.9-py3-none-any.whl", hash = "sha256:5e0e8ab0f8df05710809919184495e33c2a7c9a9a5e8861d63dd12c1226d9c79", size = 673326, upload-time = "2026-07-20T21:27:11.889Z" },
+    { url = "https://files.pythonhosted.org/packages/1e/f8/de3b66a9b9212ed41541814d8e062909c009837e650a4c2e43425ee1b43c/langsmith-0.10.12-py3-none-any.whl", hash = "sha256:d280fff7a03ecf612c3fdb172bf716467cfb9c0b9d90661b3523c2d8ee1b9a6e", size = 681040, upload-time = "2026-07-29T14:22:50.372Z" },
 ]
 
 [[package]]
@@ -4571,7 +4572,7 @@ wheels = [
 
 [[package]]
 name = "opik"
-version = "2.2.3"
+version = "2.2.11"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "boto3-stubs", extra = ["bedrock-runtime"] },
@@ -4594,9 +4595,9 @@ dependencies = [
     { name = "uuid6" },
     { name = "watchfiles" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/61/b9/940f4341aed20527d8fa366244bb4f372c3beb0c0d6f6c1cb1d2ffb4e9a9/opik-2.2.3.tar.gz", hash = "sha256:3ee5d34e807f2861ed04e4410ac44086ff7109acddc7d7a772985b81e79e4b56", size = 1187225, upload-time = "2026-07-22T11:47:34.934Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/71/15/bc3c17c17a75a7f6802d5086759e8d44035bb2fb8e5254dce89f1998a594/opik-2.2.11.tar.gz", hash = "sha256:1b2783309d9ceb40a1e74323f596070732ed1a8838780d3ad95e0f50e4787938", size = 1201366, upload-time = "2026-07-29T10:17:52.627Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0b/d6/8ac11f5409b42ef6b335fa2694759de39248c5d198b84cdef1a66526eaf1/opik-2.2.3-py3-none-any.whl", hash = "sha256:5238a0f65b4999bdaac6f4f29a173dadc0446693917456496becf10cb1436d58", size = 1874543, upload-time = "2026-07-22T11:47:33.164Z" },
+    { url = "https://files.pythonhosted.org/packages/ca/7f/4285552f698cd80b250d0a9df5257a40ed9f1fc151d87e0732b8ada26bee/opik-2.2.11-py3-none-any.whl", hash = "sha256:3c607bb0273ce8861cb0b220c571920dd3a094b21dcc9f9b9f801e602e85f213", size = 1894849, upload-time = "2026-07-29T10:17:50.801Z" },
 ]
 
 [[package]]
@@ -7408,7 +7409,7 @@ wheels = [
 
 [[package]]
 name = "weave"
-version = "0.53.2"
+version = "0.53.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cachetools" },
@@ -7426,9 +7427,9 @@ dependencies = [
     { name = "tenacity" },
     { name = "tzdata", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/74/b1/566cd40fa3455f2601306a4ebc1ea6c3f26161a01cbdeda668da1479f4df/weave-0.53.2.tar.gz", hash = "sha256:2e14e3279ebc62eb529aabf498aa02d526a01f18a189dfcfec19d2f38e75832a", size = 1148019, upload-time = "2026-07-16T23:38:52.194Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/4a/5f/b62f0c6ebc9258374d75afacc1324555ec410ecd7f4ad7a0a858d7b7cb8b/weave-0.53.3.tar.gz", hash = "sha256:df5c5e42c9bd654ab7a82c0248e26165c4eb0055171a06aed272631bdeae087e", size = 1160895, upload-time = "2026-07-27T18:45:48.773Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/57/e9/a22ed23dae0f1231b66afb84bd9460fa9b7c82a81841b7eb0c83593de06f/weave-0.53.2-py3-none-any.whl", hash = "sha256:0e44fcd002ed6e77f759f69a6b257edea8b645612c4b2cb41a8291f697299a3f", size = 1390710, upload-time = "2026-07-16T23:38:50.058Z" },
+    { url = "https://files.pythonhosted.org/packages/30/f0/1d252032e7157f3b998530b9ef296e91382d49e2bf391de01602ea343baf/weave-0.53.3-py3-none-any.whl", hash = "sha256:aa7bf0b08ed4259e0389f5933fa0fdc6d89121e7c06a3a0bfb83c5388b7c80bc", size = 1405668, upload-time = "2026-07-27T18:45:46.964Z" },
 ]
 
 [[package]]
