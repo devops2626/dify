@@ -466,7 +466,7 @@ wheels = [
 
 [[package]]
 name = "bce-python-sdk"
-version = "0.9.72"
+version = "0.9.76"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "crc32c" },
@@ -474,9 +474,9 @@ dependencies = [
     { name = "pycryptodome" },
     { name = "six" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/32/bb/1ccb8b28bfa0802356f8588e479adb61cfd2268b37fabc6c8a805d645cd5/bce_python_sdk-0.9.72.tar.gz", hash = "sha256:d9db568698792d74db4245252d98776eae8c9c5225fc0ba86548dfc52d478fcc", size = 302207, upload-time = "2026-06-08T12:10:32.326Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/0a/ed/b41906366c0e1e3a1a883e0f1bcfc927403d9697d74b1eb7e89502870218/bce_python_sdk-0.9.76.tar.gz", hash = "sha256:01c630ce8dcbf8be0563d65f18b5201eaac6bd954b3dc776040aec268f81b6ff", size = 317399, upload-time = "2026-07-24T05:12:57.005Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2d/3a/f84b025ff6c8ec8fe222430cf9201b513dd11ada744417649a64ad295b6d/bce_python_sdk-0.9.72-py3-none-any.whl", hash = "sha256:54a0c121134d6f183f6013d9b33dbf5b6678b0815b6d09616bbceed0202dd797", size = 417800, upload-time = "2026-06-08T12:10:30.556Z" },
+    { url = "https://files.pythonhosted.org/packages/b9/06/4d4a26c3dfcdb29599f563329b87eefe55b02b3c2b9d8f8c3aeaa38a33a6/bce_python_sdk-0.9.76-py3-none-any.whl", hash = "sha256:e629181d060f4ed8f29749f47139bf08f1f9b0d8b15daedc956900785587e8d8", size = 435179, upload-time = "2026-07-24T05:12:55.064Z" },
 ]
 
 [[package]]
@@ -589,16 +589,16 @@ wheels = [
 
 [[package]]
 name = "boto3"
-version = "1.43.54"
+version = "1.43.59"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "botocore" },
     { name = "jmespath" },
     { name = "s3transfer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/34/1b/497945d5e1fdacebbc7eacd6fa0c29c9a929ebb24cb5da5b61a434c6771e/boto3-1.43.54.tar.gz", hash = "sha256:3fe21f37f5b34e00fc360190f363229cef425f3c0e80a6f2b6a52f6501c3ec90", size = 112660, upload-time = "2026-07-22T19:30:53.92Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/dc/c8/ef9de1d7413da3adcdb6363258ba6b5cc703593409d8c1957825b20a69d3/boto3-1.43.59.tar.gz", hash = "sha256:4e9b14f89adc1a533c89312e86d8e00455a6f15d398796d92f9191b06e56b401", size = 112653, upload-time = "2026-07-29T19:33:25.703Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c5/96/9ed374cee1431e9837a721a107f44b8b7f2b17c9c9fc3bacb479057c6e0f/boto3-1.43.54-py3-none-any.whl", hash = "sha256:8353beda3ce4037758b24ab6bce7162e6cc084fd14c88637956d208d76cee244", size = 140025, upload-time = "2026-07-22T19:30:52.119Z" },
+    { url = "https://files.pythonhosted.org/packages/2b/10/c5999e72b020012f2e0ccccf2a15632329edd34cb95b02b1ccfb1712ec08/boto3-1.43.59-py3-none-any.whl", hash = "sha256:58b9635deebf075c1c3d76df78df08eb2979c2a74283194676783a0bff3b4557", size = 140024, upload-time = "2026-07-29T19:33:23.751Z" },
 ]
 
 [[package]]
@@ -621,16 +621,16 @@ bedrock-runtime = [
 
 [[package]]
 name = "botocore"
-version = "1.43.54"
+version = "1.43.59"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jmespath" },
     { name = "python-dateutil" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0f/44/70c8ce96d8da4573dbd0008abe940de4b19e25c0a5bffcbda3b3d1061b3b/botocore-1.43.54.tar.gz", hash = "sha256:5b58969503eda747e0b69c33735edfc02dab3d31fe3bba87dd83ea787152ffa4", size = 15727582, upload-time = "2026-07-22T19:30:40.259Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e5/37/3712a70796583570a5a2e426163e13762ba5ec615a73e966ad18e5933954/botocore-1.43.59.tar.gz", hash = "sha256:8016da69ecc1d705249a8ef13548d3c95eec87ac1cd26133a8bdfa73ca175be0", size = 15788291, upload-time = "2026-07-29T19:33:14.871Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/31/12/35df5617a133a2af6f03b6e66d76e0ca283cc4a5be0c0bddb7bf836d4534/botocore-1.43.54-py3-none-any.whl", hash = "sha256:22b447e6c5e295d610a00df262efdffb062805d293c00e94f52a4cd3fe9d391d", size = 15410626, upload-time = "2026-07-22T19:30:36.053Z" },
+    { url = "https://files.pythonhosted.org/packages/f6/cd/62d749f824b25c152144665f7c5eb8b5ca8be967a87e0c63577b7d4501ae/botocore-1.43.59-py3-none-any.whl", hash = "sha256:21393c35d23b19d7ba95cc4156b59f4013f80696d667997e1abd9d4e29651708", size = 15471171, upload-time = "2026-07-29T19:33:10.864Z" },
 ]
 
 [[package]]
@@ -1262,7 +1262,7 @@ wheels = [
 
 [[package]]
 name = "dify-agent"
-version = "1.16.0"
+version = "1.16.1"
 source = { editable = "../dify-agent" }
 dependencies = [
     { name = "httpx" },
@@ -1274,6 +1274,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "e2b", marker = "extra == 'server'", specifier = ">=2.34.0,<3.0.0" },
     { name = "fastapi", marker = "extra == 'server'", specifier = "==0.136.0" },
     { name = "graphon", marker = "extra == 'server'", specifier = "==0.5.2" },
     { name = "grpclib", extras = ["protobuf"], marker = "extra == 'grpc'", specifier = ">=0.4.9,<0.5.0" },
@@ -1602,7 +1603,7 @@ requires-dist = [
     { name = "aliyun-log-python-sdk", specifier = "==0.9.44" },
     { name = "azure-identity", specifier = ">=1.25.3,<2.0.0" },
     { name = "bleach", specifier = ">=6.4.0,<7.0.0" },
-    { name = "boto3", specifier = ">=1.43.54,<2.0.0" },
+    { name = "boto3", specifier = ">=1.43.59,<2.0.0" },
     { name = "celery", specifier = ">=5.6.3,<6.0.0" },
     { name = "croniter", specifier = ">=6.2.2,<7.0.0" },
     { name = "dify-agent", editable = "../dify-agent" },
@@ -1708,7 +1709,7 @@ dev = [
 ]
 storage = [
     { name = "azure-storage-blob", specifier = ">=12.30.0,<13.0.0" },
-    { name = "bce-python-sdk", specifier = "==0.9.72" },
+    { name = "bce-python-sdk", specifier = "==0.9.76" },
     { name = "cos-python-sdk-v5", specifier = ">=1.9.44,<2.0.0" },
     { name = "esdk-obs-python", specifier = ">=3.26.6,<4.0.0" },
     { name = "google-cloud-storage", specifier = ">=3.13.0,<4.0.0" },
