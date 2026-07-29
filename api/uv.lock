@@ -1262,7 +1262,7 @@ wheels = [
 
 [[package]]
 name = "dify-agent"
-version = "1.16.0"
+version = "1.16.1"
 source = { editable = "../dify-agent" }
 dependencies = [
     { name = "httpx" },
@@ -1274,6 +1274,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "e2b", marker = "extra == 'server'", specifier = ">=2.34.0,<3.0.0" },
     { name = "fastapi", marker = "extra == 'server'", specifier = "==0.136.0" },
     { name = "graphon", marker = "extra == 'server'", specifier = "==0.5.2" },
     { name = "grpclib", extras = ["protobuf"], marker = "extra == 'grpc'", specifier = ">=0.4.9,<0.5.0" },
@@ -1284,7 +1285,7 @@ requires-dist = [
     { name = "logfire", extras = ["fastapi", "httpx", "redis"], marker = "extra == 'server'", specifier = ">=4.37.0,<5.0.0" },
     { name = "protobuf", marker = "extra == 'grpc'", specifier = ">=6.33.5,<7.0.0" },
     { name = "pydantic", specifier = ">=2.13.4,<2.14" },
-    { name = "pydantic-ai-slim", specifier = ">=2.15.0,<3.0.0" },
+    { name = "pydantic-ai-slim", specifier = ">=2.20.0,<3.0.0" },
     { name = "pydantic-ai-slim", extras = ["anthropic", "google", "openai"], marker = "extra == 'server'", specifier = ">=1.85.1,<2.0.0" },
     { name = "pydantic-settings", marker = "extra == 'server'", specifier = ">=2.12.0,<3.0.0" },
     { name = "redis", marker = "extra == 'server'", specifier = ">=7.4.0,<8.0.0" },
@@ -5152,7 +5153,7 @@ wheels = [
 
 [[package]]
 name = "pydantic-ai-slim"
-version = "2.15.0"
+version = "2.20.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "genai-prices" },
@@ -5163,9 +5164,9 @@ dependencies = [
     { name = "pydantic-graph" },
     { name = "typing-inspection" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/54/bc/65fabea030e6b40c04b25b7069b559ff5cabea6e7cadf640839ceeb08af6/pydantic_ai_slim-2.15.0.tar.gz", hash = "sha256:29d804b6caf582337f4e99f98ba4f4bf0b9e164761429daa87c392a176315e20", size = 879375, upload-time = "2026-07-22T03:59:19.447Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/00/53/7bfa293ed6d2eb3c400c14d442867bc22cba3cf5f1551b829f54f18ff693/pydantic_ai_slim-2.20.0.tar.gz", hash = "sha256:d70eea3c82a5976d992542ebe2bdbd1af63cd41d9d896b0d59f061fadf42cd2b", size = 912253, upload-time = "2026-07-29T03:37:50.063Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/66/d9/28a6010b1d1937fc5c0fa1516d8a7e05d871920269e1dedd28db3c138195/pydantic_ai_slim-2.15.0-py3-none-any.whl", hash = "sha256:758f9cf5bf1c7e83bf4e7459e71006a3d5da46443416f71281fea202365ce7a7", size = 1066704, upload-time = "2026-07-22T03:59:12.047Z" },
+    { url = "https://files.pythonhosted.org/packages/5a/3e/d5377980b29e6b18ee334f31cdbdb55dbfe437358251406489e683bde631/pydantic_ai_slim-2.20.0-py3-none-any.whl", hash = "sha256:c61f1e9a19cb85028638e4909f64b8331ed754e918d8bf892434fd92b1f93f59", size = 1101608, upload-time = "2026-07-29T03:37:41.463Z" },
 ]
 
 [[package]]
@@ -5213,7 +5214,7 @@ wheels = [
 
 [[package]]
 name = "pydantic-graph"
-version = "2.15.0"
+version = "2.20.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
@@ -5221,9 +5222,9 @@ dependencies = [
     { name = "pydantic" },
     { name = "typing-inspection" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6a/39/f56cfeb84754b07470c4149bdc2f242308c057975d51ca1d1695a58f36c3/pydantic_graph-2.15.0.tar.gz", hash = "sha256:3cc82597ed9bfff4806e5c5105bc64e6e627924a21933962e4d8a3aebe25bc6d", size = 43934, upload-time = "2026-07-22T03:59:21.684Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/9a/b2/63e33bec7f5d95a40af8503c83d66cda151315a16d334975209875766d4d/pydantic_graph-2.20.0.tar.gz", hash = "sha256:d009dc97689ede3d20e2d99384f93b867ccd5b408dcc394551b8dd26cfcde80f", size = 44150, upload-time = "2026-07-29T03:37:52.248Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a0/b6/6d6360afbc91b9430abe7f50266f2f0b78fcfc55a88b5681618948d60ab1/pydantic_graph-2.15.0-py3-none-any.whl", hash = "sha256:ed5b3fa18dccea9cef95a09fbbf087e49d9e244f11376ee0454d8f89059a95e6", size = 51660, upload-time = "2026-07-22T03:59:15.108Z" },
+    { url = "https://files.pythonhosted.org/packages/bc/24/1dd8d79a01ec0278ce9dc0933fe3a5c5bb8cde34e717294b9b028c539f6e/pydantic_graph-2.20.0-py3-none-any.whl", hash = "sha256:ceee415418a8cc6f8ef6968c8343e6be00c1971157dc552fc1fbb24790b5250a", size = 51658, upload-time = "2026-07-29T03:37:45.131Z" },
 ]
 
 [[package]]
