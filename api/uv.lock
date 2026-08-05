@@ -1844,7 +1844,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "langfuse", specifier = ">=4.14.1,<5.0.0" }]
+requires-dist = [{ name = "langfuse", specifier = ">=4.14.2,<5.0.0" }]
 
 [[package]]
 name = "dify-trace-langsmith"
@@ -1855,7 +1855,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "langsmith", specifier = "==0.10.12" }]
+requires-dist = [{ name = "langsmith", specifier = "==0.10.15" }]
 
 [[package]]
 name = "dify-trace-mlflow"
@@ -1866,7 +1866,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "mlflow-skinny", specifier = ">=3.14.0,<4.0.0" }]
+requires-dist = [{ name = "mlflow-skinny", specifier = ">=3.15.0,<4.0.0" }]
 
 [[package]]
 name = "dify-trace-opik"
@@ -1877,7 +1877,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "opik", specifier = "~=2.2.11" }]
+requires-dist = [{ name = "opik", specifier = "~=2.2.13" }]
 
 [[package]]
 name = "dify-trace-tencent"
@@ -1907,7 +1907,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "weave", specifier = "==0.53.3" }]
+requires-dist = [{ name = "weave", specifier = "==0.53.4" }]
 
 [[package]]
 name = "dify-vdb-alibabacloud-mysql"
@@ -3666,7 +3666,7 @@ sdist = { url = "https://files.pythonhosted.org/packages/0e/72/a3add0e4eec4eb9e2
 
 [[package]]
 name = "langfuse"
-version = "4.14.1"
+version = "4.14.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "backoff" },
@@ -3678,14 +3678,14 @@ dependencies = [
     { name = "pydantic" },
     { name = "wrapt" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a1/61/bb7fa00f5334a670c9aae1f053bc725654a0ca5435fa17d0cb103df8c978/langfuse-4.14.1.tar.gz", hash = "sha256:576641820ae79aeca71453c8eff3c8c35d53f7e41729c918f59eb81f7499faf9", size = 381977, upload-time = "2026-07-20T08:44:04.669Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/36/7c/4cdf76a100f169a0855d4a7e69598a3bbe19bd2f048c5de3c298af1aa2c0/langfuse-4.14.2.tar.gz", hash = "sha256:76eb3f2c2106ddd63271154d1a33f8b3d4036f449a9f9b48403c36bd5e7c1bba", size = 389507, upload-time = "2026-07-30T11:54:48.46Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e6/e4/6c305af16f1ce344271dd829383b7af586530cf60b55af1aaf274ca37ba9/langfuse-4.14.1-py3-none-any.whl", hash = "sha256:07d19f16338b8e21f8e5996b7e6c3ed150ee582fbaa6275ac9eeea297093f4be", size = 669448, upload-time = "2026-07-20T08:44:05.682Z" },
+    { url = "https://files.pythonhosted.org/packages/8b/b5/1499bcedb6872e8acc4e7043c522c9f3a4fe2eafd78a6f37e73308d18753/langfuse-4.14.2-py3-none-any.whl", hash = "sha256:27879cbaea570e94323c6ced60a0997feedf5294f18b51436009947c42f9f92e", size = 688132, upload-time = "2026-07-30T11:54:49.553Z" },
 ]
 
 [[package]]
 name = "langsmith"
-version = "0.10.12"
+version = "0.10.15"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -3703,9 +3703,9 @@ dependencies = [
     { name = "xxhash" },
     { name = "zstandard" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a3/c3/7203f18c6ca0ff4c65087fe8694511fadc8a0037c37010e43d25b9ecacd8/langsmith-0.10.12.tar.gz", hash = "sha256:e27cace529a5c54546ecdc2d3fa7af6d8a84a5b9333e99b497f47cafffa16ef5", size = 4749918, upload-time = "2026-07-29T14:22:52.335Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/99/bb/bce9faa416dfd28e1cf60bf6299e9569f9e8483b0ed22eed1d6aefc9e81c/langsmith-0.10.15.tar.gz", hash = "sha256:eefc562b29eb642a635b459e5bb44ca574380d7f32fe840acf28cd603c168647", size = 4790873, upload-time = "2026-07-31T18:15:18.413Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1e/f8/de3b66a9b9212ed41541814d8e062909c009837e650a4c2e43425ee1b43c/langsmith-0.10.12-py3-none-any.whl", hash = "sha256:d280fff7a03ecf612c3fdb172bf716467cfb9c0b9d90661b3523c2d8ee1b9a6e", size = 681040, upload-time = "2026-07-29T14:22:50.372Z" },
+    { url = "https://files.pythonhosted.org/packages/45/7a/58602b770741bc84b0b35b580914f335f6663f4ea699b95eb12b074e70b8/langsmith-0.10.15-py3-none-any.whl", hash = "sha256:7afd7979a9cdf846a88c980e0a31ed518c33631d29e672adbfbb33446f3817cf", size = 731606, upload-time = "2026-07-31T18:15:16.471Z" },
 ]
 
 [[package]]
@@ -3896,7 +3896,7 @@ wheels = [
 
 [[package]]
 name = "mlflow-skinny"
-version = "3.14.0"
+version = "3.15.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cachetools" },
@@ -3920,9 +3920,9 @@ dependencies = [
     { name = "typing-extensions" },
     { name = "uvicorn" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e8/4f/a054cd8860590e4e942aee1aab3c94307878159f945fa844acc9ea787721/mlflow_skinny-3.14.0.tar.gz", hash = "sha256:e50f4506422c7737157ae6643c165122af7898345f2e828fa93c4f10128653cf", size = 2901772, upload-time = "2026-06-17T07:57:44.252Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/53/a1/04489b8f10ec642cc5d16d8bcf0e3626cbe6b8924940b510de9e3cb37ac7/mlflow_skinny-3.15.0.tar.gz", hash = "sha256:6faad0bb5b0b8adc08550c6cd2ab5a87f9e7d7fe8814278e22b79f9cac99d943", size = 3034359, upload-time = "2026-07-31T07:04:58.359Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/58/e7/b80f76ce689b9d6f21cdb84abb2b02148a1149e63a6428dd2c629cefd061/mlflow_skinny-3.14.0-py3-none-any.whl", hash = "sha256:a4880e086365871ef9d78e727a34ea5fb1ce615689579998d48e8c65ee1665a9", size = 3462788, upload-time = "2026-06-17T07:57:42.583Z" },
+    { url = "https://files.pythonhosted.org/packages/28/ca/b0194962614876abb8b9a4d38815b4c6bf5c6f626b5dd3bcd321048755fc/mlflow_skinny-3.15.0-py3-none-any.whl", hash = "sha256:fc609ea5f7325a76d6f905489d8be73e85bcba0eef64144a763cf446de83192e", size = 3612199, upload-time = "2026-07-31T07:04:56.564Z" },
 ]
 
 [[package]]
@@ -4573,7 +4573,7 @@ wheels = [
 
 [[package]]
 name = "opik"
-version = "2.2.11"
+version = "2.2.13"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "boto3-stubs", extra = ["bedrock-runtime"] },
@@ -4596,9 +4596,9 @@ dependencies = [
     { name = "uuid6" },
     { name = "watchfiles" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/71/15/bc3c17c17a75a7f6802d5086759e8d44035bb2fb8e5254dce89f1998a594/opik-2.2.11.tar.gz", hash = "sha256:1b2783309d9ceb40a1e74323f596070732ed1a8838780d3ad95e0f50e4787938", size = 1201366, upload-time = "2026-07-29T10:17:52.627Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/85/a5/c145c7721c195d666eee9de9a62091e3805d0a48a3266111c94cd93a6b12/opik-2.2.13.tar.gz", hash = "sha256:ae0951ec2eeb0c7a131f22c35513f81d2295cca7e8ecd70eb37bf3817d66a6a1", size = 1201313, upload-time = "2026-07-31T10:22:46.97Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ca/7f/4285552f698cd80b250d0a9df5257a40ed9f1fc151d87e0732b8ada26bee/opik-2.2.11-py3-none-any.whl", hash = "sha256:3c607bb0273ce8861cb0b220c571920dd3a094b21dcc9f9b9f801e602e85f213", size = 1894849, upload-time = "2026-07-29T10:17:50.801Z" },
+    { url = "https://files.pythonhosted.org/packages/19/d7/d62f3229e1348cbadd03e436719ea88e30d9fbf4559548d33391f455bf0f/opik-2.2.13-py3-none-any.whl", hash = "sha256:bd1c8c5cb4a61f54916f749710d8068fa1ba16876a89f3e07281d7ab9a0a0fd8", size = 1894848, upload-time = "2026-07-31T10:22:45.115Z" },
 ]
 
 [[package]]
@@ -7412,7 +7412,7 @@ wheels = [
 
 [[package]]
 name = "weave"
-version = "0.53.3"
+version = "0.53.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cachetools" },
@@ -7430,9 +7430,9 @@ dependencies = [
     { name = "tenacity" },
     { name = "tzdata", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4a/5f/b62f0c6ebc9258374d75afacc1324555ec410ecd7f4ad7a0a858d7b7cb8b/weave-0.53.3.tar.gz", hash = "sha256:df5c5e42c9bd654ab7a82c0248e26165c4eb0055171a06aed272631bdeae087e", size = 1160895, upload-time = "2026-07-27T18:45:48.773Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/36/c0/12d8a59b82030a102d1b6a133228581aa82b567506a456d8ef24696b7bf8/weave-0.53.4.tar.gz", hash = "sha256:b6fa986153f6fe4353beaa2c306c9e6fc216c4b6da8732b0c6d393e93874fe20", size = 1168284, upload-time = "2026-07-30T23:43:45.526Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/30/f0/1d252032e7157f3b998530b9ef296e91382d49e2bf391de01602ea343baf/weave-0.53.3-py3-none-any.whl", hash = "sha256:aa7bf0b08ed4259e0389f5933fa0fdc6d89121e7c06a3a0bfb83c5388b7c80bc", size = 1405668, upload-time = "2026-07-27T18:45:46.964Z" },
+    { url = "https://files.pythonhosted.org/packages/1b/30/2ef9d05a9babc3ab9e5274cc1c91e1919cc0e29a6daeb412703addce5ae4/weave-0.53.4-py3-none-any.whl", hash = "sha256:dc34d79108a706818b9bde0fadb53939eaa21885762f1129809ea74fad7c8caa", size = 1414466, upload-time = "2026-07-30T23:43:43.394Z" },
 ]
 
 [[package]]
