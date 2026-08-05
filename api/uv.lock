@@ -2023,7 +2023,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "intersystems-irispython", specifier = ">=5.1.0,<6.0.0" }]
+requires-dist = [{ name = "intersystems-irispython", specifier = ">=5.4.0,<6.0.0" }]
 
 [[package]]
 name = "dify-vdb-lindorm"
@@ -2085,7 +2085,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "mysql-connector-python", specifier = ">=26.7.0,<27.0.0" },
-    { name = "pyobvector", specifier = "==0.2.28" },
+    { name = "pyobvector", specifier = "==0.2.29" },
 ]
 
 [[package]]
@@ -2217,7 +2217,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "pyobvector", specifier = "==0.2.28" }]
+requires-dist = [{ name = "pyobvector", specifier = "==0.2.29" }]
 
 [[package]]
 name = "dify-vdb-vikingdb"
@@ -3475,14 +3475,14 @@ wheels = [
 
 [[package]]
 name = "intersystems-irispython"
-version = "5.3.2"
+version = "5.4.0"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d2/23/0a7bc92e68480d523015eb454aa0ec73a33320975d10d5500ba54ccd124e/intersystems_irispython-5.3.2-cp38.cp39.cp310.cp311.cp312.cp313.cp314-cp38.cp39.cp310.cp311.cp312.cp313.cp314-macosx_10_9_universal2.whl", hash = "sha256:8af5e31273ad97c391141111630e8303d510272360b609990a8c85e56a7850ac", size = 7121915, upload-time = "2026-03-31T18:53:12.205Z" },
-    { url = "https://files.pythonhosted.org/packages/22/cc/2f066a0dc82fae884b655d2f862bd51dd21a4322d4b9f898117f74c010b4/intersystems_irispython-5.3.2-cp38.cp39.cp310.cp311.cp312.cp313.cp314-cp38.cp39.cp310.cp311.cp312.cp313.cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:25663d3cce7b414451a781ffaeb785e8f8439d0275920ffd4f05add2c056abfd", size = 16247974, upload-time = "2026-03-31T18:53:13.798Z" },
-    { url = "https://files.pythonhosted.org/packages/27/cd/cef09a8310541d99fdbe89b2eccc21a6d776384325a9a6e740ad01e8461f/intersystems_irispython-5.3.2-cp38.cp39.cp310.cp311.cp312.cp313.cp314-cp38.cp39.cp310.cp311.cp312.cp313.cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:d5cb6efc3e2b9651f1c37539a3f69a823e80c32210d11d745cffad1eca4c7995", size = 15900577, upload-time = "2026-03-31T18:53:15.958Z" },
-    { url = "https://files.pythonhosted.org/packages/37/91/0e08555834de10f59810ef6c615af72c3f234920c70cc0421d455ba9c359/intersystems_irispython-5.3.2-cp38.cp39.cp310.cp311.cp312.cp313.cp314-cp38.cp39.cp310.cp311.cp312.cp313.cp314-win32.whl", hash = "sha256:a250b21067c9e8275232ca798dcfe0719a970cd6ec9f2023923c810fffa46f41", size = 3046761, upload-time = "2026-03-31T18:53:09.151Z" },
-    { url = "https://files.pythonhosted.org/packages/21/28/00b6b03b648005cb9c14dc75943e7cccce83eb5fd8fdba502028c25c7fc4/intersystems_irispython-5.3.2-cp38.cp39.cp310.cp311.cp312.cp313.cp314-cp38.cp39.cp310.cp311.cp312.cp313.cp314-win_amd64.whl", hash = "sha256:43feb7e23bc9f77db7bb140d1b55c22090b0c46691b570b1faaf6875baa6452d", size = 3742519, upload-time = "2026-03-31T18:53:10.597Z" },
+    { url = "https://files.pythonhosted.org/packages/7c/d8/00b2e06068975d93910f18111f51754fb921243b9148d0fe50010edf550c/intersystems_irispython-5.4.0-cp39.cp310.cp311.cp312.cp313.cp314-cp39.cp310.cp311.cp312.cp313.cp314-macosx_10_9_universal2.whl", hash = "sha256:ae3d147698305161e33ba9e408fde020af917c22f5e738cb3d7e2fb3d113179f", size = 7074943, upload-time = "2026-07-30T19:07:03.024Z" },
+    { url = "https://files.pythonhosted.org/packages/fb/f8/b8a044a0c5afc8e81bf3fa75c09698b32a85550d4caa1b68c709b57b5107/intersystems_irispython-5.4.0-cp39.cp310.cp311.cp312.cp313.cp314-cp39.cp310.cp311.cp312.cp313.cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:a8f060b0c25338d3de7bdebd9975d1b206ac07ea31325440a97bfeaede0473f2", size = 15494467, upload-time = "2026-07-30T19:07:14.941Z" },
+    { url = "https://files.pythonhosted.org/packages/69/13/c2758a0d4d727813961cf4bde66b618a5eef2580e5d9578f27205555bc3d/intersystems_irispython-5.4.0-cp39.cp310.cp311.cp312.cp313.cp314-cp39.cp310.cp311.cp312.cp313.cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:737d6aa96202e216cf567a1ea04048923dc32ed070aca69cd3e3c1d1471b98a6", size = 15157284, upload-time = "2026-07-30T19:07:06.101Z" },
+    { url = "https://files.pythonhosted.org/packages/6d/d4/27cb8aff27cdb9223e4dbff2b85e15ddf3fc87d477ea21bfb87c8eb51dfc/intersystems_irispython-5.4.0-cp39.cp310.cp311.cp312.cp313.cp314-cp39.cp310.cp311.cp312.cp313.cp314-win32.whl", hash = "sha256:8df3580f0d82b7d9d7c0b09d40ea04fbebbe3f78ab13251bd6d83d15ebf96e88", size = 3054941, upload-time = "2026-07-30T19:07:08.703Z" },
+    { url = "https://files.pythonhosted.org/packages/96/b3/97b7da76d63e0b7e119872db6f85ae19371a39fe57f037c9fd08fd4e07af/intersystems_irispython-5.4.0-cp39.cp310.cp311.cp312.cp313.cp314-cp39.cp310.cp311.cp312.cp313.cp314-win_amd64.whl", hash = "sha256:97f3568c351de3f5b6cff088f104990b728b3243faab5947ed11357cd646d671", size = 3704377, upload-time = "2026-07-30T19:07:00.885Z" },
 ]
 
 [[package]]
@@ -5310,7 +5310,7 @@ wheels = [
 
 [[package]]
 name = "pyobvector"
-version = "0.2.28"
+version = "0.2.29"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiomysql" },
@@ -5320,9 +5320,9 @@ dependencies = [
     { name = "sqlalchemy" },
     { name = "sqlglot" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e5/e7/397eaeab4d52126675a30bcbfe1b74b6f3d3512a9e714966a93f08f3da2e/pyobvector-0.2.28.tar.gz", hash = "sha256:d394d66f4a7dc97c221b7584e52b329e3fe61ed96b6f248d7360e3e5a53581ce", size = 81686, upload-time = "2026-06-05T06:42:41.593Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/32/47/80f5f62572b00348d6864eb14d495cf26e52d7b9dba0ad7365cdbac86851/pyobvector-0.2.29.tar.gz", hash = "sha256:3f0feac0ac964bb56c2e3ed661b5de84ef5bc97253ae8e9935a65fea367e3736", size = 85589, upload-time = "2026-07-29T02:53:22.676Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/dd/a6/8acb9821c78bafc3ff9db5bbea05a8b67ff871b7590b7d25cc91c34fc2f0/pyobvector-0.2.28-py3-none-any.whl", hash = "sha256:36708fc0020307890b9001035904ff14719b81e20e58f2a97f7f3739dad53c72", size = 66637, upload-time = "2026-06-05T06:42:38.5Z" },
+    { url = "https://files.pythonhosted.org/packages/82/66/1aa4ca29ee2d1780aa4761d58ccac82771747a75f9146db0d7285a245bdb/pyobvector-0.2.29-py3-none-any.whl", hash = "sha256:f7cfdf1ca0c5c6ccbc10fd096aef944cd3970970f1382441a77dff1be78744cf", size = 70210, upload-time = "2026-07-29T02:53:21.307Z" },
 ]
 
 [[package]]
